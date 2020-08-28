@@ -68,3 +68,21 @@ nav {
     padding: 0;
     margin: 0;
 }
+
+/* FLIP CHECK BUTTON STYLING */
+#flip-check-container {
+    width: 300px;
+    height: 80px;
+    background: pink;
+    border-radius: 6px;
+}
+
+#flip-check-button {
+    background: red;
+}
+
+#flip-check-text {
+    color: white;
+    font-size: 2em;
+    transition: all .9s;
+}
