@@ -1,5 +1,17 @@
+/* general settings for centering items  */
+html,
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    background-color: #154c81;
+}
+
+/* FOCUS BUTTON STYLING */
 /* button styling while not hovering */
-button {
+#focus-button {
+    margin: 5rem;
     width: 80px;
     height: 50px;
     background-color: transparent;
@@ -14,7 +26,7 @@ button {
     outline: none;
 }
 /* these are the button effects on hover */
-button:hover {
+#focus-button:hover {
     transition: all 1s;
     width: 150px;
     border-radius: 35px;
@@ -23,7 +35,7 @@ button:hover {
 }
 
 /* container to hold the button */
-div {
+#focus-button-div {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,9 +45,26 @@ div {
     margin: 0;
 }
 
-/* general settings for centering items  */
-html,
-body {
-    height: 100%;
-    background-color: #154c81;
+/* NAV STYLING */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+    /* change the color of the nav here */
+    background-color: white;  
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    
+}
+
+#nav-link-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    padding: 5px;
 }
