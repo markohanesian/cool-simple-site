@@ -4,10 +4,19 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    margin: 0;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
     background-color: #202020;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white; 
+    margin: 0;
 }
 
 /* PAGE TITLE */
@@ -24,43 +33,18 @@ body {
 #page-subtitle{
     display: flex;
     flex-direction: column;
+    font-weight: 100;
+    font-size: 1.5rem;
     text-align: center;
-    color: white; 
+    color: lightgray; 
+    margin-bottom: 2rem;
 }
-
-
-
 /* elements */
 
-
-/* NAV STYLING */
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;  
-    align-items: center;
-    /* change the color of the nav here */
-    background-color: white;  
-    font-family: sans-serif;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0;
-    
-}
-
-#nav-link-div {
-    display: flex;
-    flex-direction: row;
-}
-
-.nav-link {
-    padding: 5px;
-}
 
 /* FOCUS BUTTON STYLING */
 /* button styling while not hovering */
 #focus-button {
-    margin: 5rem;
     width: 80px;
     height: 50px;
     background-color: transparent;
@@ -91,7 +75,7 @@ nav {
     place-items: center;
     height: 100%;
     padding: 0;
-    margin: 0;
+    margin: 1rem;
 }
 
 /* FORM V1 STYLING */
@@ -104,6 +88,7 @@ nav {
     place-items: center;
     color: white;
     border: none;
+    margin: 1rem;
 }
 
 #form-v1-fs {
@@ -118,6 +103,32 @@ nav {
     text-transform: uppercase;
     padding: .5em;
 }
+
+
+/* NAV STYLING */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+    /* change the color of the nav here */
+    background-color: white;  
+    font-family: sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    
+}
+
+#nav-link-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-link {
+    padding: 5px;
+}
+
 
 /* FLIP CHECK BUTTON STYLING */
 #flip-check-container {
