@@ -30,8 +30,9 @@ body {
 
 
 
-
 /* elements */
+
+
 /* NAV STYLING */
 nav {
     display: flex;
@@ -91,6 +92,31 @@ nav {
     height: 100%;
     padding: 0;
     margin: 0;
+}
+
+/* FORM V1 STYLING */
+#form-v1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    width: 200px;
+    place-items: center;
+    color: white;
+    border: none;
+}
+
+#form-v1-fs {
+}
+
+#form-v1-btn {
+    display: grid;
+    align-self: center;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    padding: .5em;
 }
 
 /* FLIP CHECK BUTTON STYLING */
