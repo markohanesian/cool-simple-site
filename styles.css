@@ -7,10 +7,66 @@ body {
     margin-top: 0;
     margin-left: 1rem;
     margin-right: 1rem;
-    background-color: #202020;
+    background-color: white;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+pre {
+    background-color: #111117;
+    margin-left: 1rem;
+}
+
+code {
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+}
+
+a {
+    color: #3CE3F5;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #577AFF;
+}
+
+ol {
+    color: blacksmoke;
+}
+
+li {
+    padding: 1rem;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black; 
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 100;
+    letter-spacing: .1rem;
+    color: black;
+}
+/* HOME SUBTITLE */
+#page-subtitle{
+    display: flex;
+    flex-direction: column;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333; 
+    margin-bottom: 2rem;
+}
+/* ELEMENTS */
 button {
     display: flex;
     align-self: center;
@@ -20,7 +76,8 @@ button {
     border: none;
     padding: .7rem;
     background-color: whitesmoke;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    font-weight: 100;
 }
 
 button:hover {
@@ -28,37 +85,47 @@ button:hover {
     background-color: rgb(228, 228, 228);
 }
 
-
-p {
+form {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    color: white; 
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 200px;
+    color: black;
+    border: none;
+    margin: 1rem;
+    outline: none;
+    border: none;
+    padding: .7rem;
+    font-size: 1rem;
 }
 
-/* PAGE TITLE */
-#page-title{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    font-size: 4rem;
+fieldset {
+    border: none;
+    padding: .7rem;
+    background-color: whitesmoke;
+    font-size: 1rem;
+    padding: 1.5rem;
+}
+
+input {
+    font-size: 1.2rem;
     font-weight: 100;
-    letter-spacing: .1rem;
+    outline: none;
+    padding: .7rem;
+    border: 1px solid #ccc;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+.form-button {
+    background-color: green;
     color: white;
 }
-/* PAGE SUBTITLE */
-#page-subtitle{
-    display: flex;
-    flex-direction: column;
-    font-weight: 100;
-    font-size: 1.5rem;
-    text-align: center;
-    color: lightgray; 
-    margin-bottom: 2rem;
-}
-/* elements */
-
 
 /* FOCUS BUTTON STYLING */
 /* button styling while not hovering */
@@ -72,8 +139,8 @@ p {
     text-decoration: none;
     border-style: solid;
     border-width: 0.5px;
-    border-color: white;
-    color: white;
+    border-color: black;
+    color: black;
     outline: none;
 }
 /* these are the button effects on hover */
@@ -96,33 +163,6 @@ p {
     margin: 1rem;
 }
 
-/* FORM V1 STYLING */
-#form-v1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    width: 200px;
-    place-items: center;
-    color: white;
-    border: none;
-    margin: 1rem;
-}
-
-#form-v1-fs {
-}
-
-#form-v1-btn {
-    display: grid;
-    align-self: center;
-    border: none;
-    outline: none;
-    background-color: whitesmoke;
-    text-transform: uppercase;
-    padding: .5em;
-}
-
-
 /* NAV STYLING */
 nav {
     display: flex;
@@ -130,7 +170,7 @@ nav {
     justify-content: space-between;  
     align-items: center;
     /* change the color of the nav here */
-    background-color: white;  
+    background-color: black;  
     font-family: sans-serif;
     padding-left: 10px;
     padding-right: 10px;
@@ -179,7 +219,7 @@ nav {
 }
 
 #flip-check-text {
-    color: white;
+    color: black;
     font-size: 2em;
     transition: all .9s;
 }
