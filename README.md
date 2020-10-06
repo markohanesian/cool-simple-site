@@ -7,7 +7,7 @@ Simple and cool modules for building your website with copy+paste ease
 I want to build a simple website/app and just copy in cool and simple modules made with light code
 
 ## Instructions
-Copy and paste into your project!
+Check out the [docs]()
 
 ## Links
 * [Site](https://coolsimple.site)
