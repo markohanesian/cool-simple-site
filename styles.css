@@ -85,6 +85,11 @@ h2 {
     background-color: #693A5A;
 }
 
+#documentation-about {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
 
 /* ELEMENTS */
 button {
