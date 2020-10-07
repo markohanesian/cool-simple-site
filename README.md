@@ -21,7 +21,7 @@ Check out the [docs]()
 * README template
 
 ## Authors
-* [Mark Ohanasian](https://github.com/markohanesian) 
+* [Mark Ohanesian](https://github.com/markohanesian) 
 
 ## Acknowledgments
 
