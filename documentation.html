@@ -7,32 +7,46 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1 id="page-title">Documentation</h1>
+    <section style="background-color: #42383F; padding: 2rem;">
+        <!-- PAGE TITLE AND SUBTITLE -->
+        <h1 style="color: white;">Documentation</h1>
+        <button
+          id="documentation"
+          onclick="document.location='index.html'"
+        >
+          Go Home
+        </button>
+      </section>
 
     <!-- Stylesheet download link -->
-    <h2>
-        About
-    </h2>
-    <p id="documentation-about">Cool Simple Site is a handy resource for modern styling that uses only HTML and CSS - no minified JS, no confusing framework to learn, no difficult class/ID overrides to change colors or spacing. </p>
-    <p id="documentation-about">Cool Simple Site styles your html elements with just one stylesheet file; modern styling doesn't get any more lightweight than that!</p>
-    <h2>Instructions</h2>
-    <ol>
-        <li>
-            First download the
-            <a href="/styles.css" download>stylesheet</a>
-        </li>
-        <li>
-            Add the stylesheet to your project directory
-        </li>
-        <li>
-            Reference the stylesheet in your document <code>head</code>
-            <br>
-            <pre><code class="language-markup">
-                &lt;link rel="stylesheet" href="./styles.css"&lt;/link>
-            </code></pre>
-        </li>
-        <li>Copy and paste elements to add them to your website!</li>
-    </ol>
+    <section>
+        <h2>
+            About
+        </h2>
+        <p id="documentation-about">Cool Simple Site is a handy resource for modern styling that uses only HTML and CSS - no minified JS, no confusing framework to learn, no difficult class/ID overrides to change colors or spacing. </p>
+        <p id="documentation-about">Cool Simple Site styles your html elements with just one stylesheet file; modern styling doesn't get any more lightweight than that!</p>
+    </section>
+    <section>
+        <h2>Instructions</h2>
+        <ol>
+            <li>
+                First download the
+                <a href="/styles.css" download>stylesheet</a>
+            </li>
+            <li>
+                Add the stylesheet to your project directory
+            </li>
+            <li>
+                Reference the stylesheet in your document <code>head</code>
+                <br>
+                <pre><code class="language-markup">
+                    &lt;link rel="stylesheet" href="./styles.css"&lt;/link>
+                </code></pre>
+            </li>
+            <li>Copy and paste elements to add them to your website!</li>
+        </ol>
+    </section>
+    
     
 </body>
 </html>
