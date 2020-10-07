@@ -15,7 +15,6 @@ Check out the [docs]()
 ## Built With
 * HTML
 * CSS + Flexbox
-* Javascript
 
 ## Planned Features/Outstanding Issues
 * Button
