@@ -98,6 +98,17 @@ h2 {
     padding-bottom: 1rem;
 }
 
+#stylesheet-link {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+    color:  rgb(194, 106, 167);
+}
+
+#stylesheet-link:hover {
+    font-weight: bold;
+}
 
 /* ELEMENTS */
 nav {
