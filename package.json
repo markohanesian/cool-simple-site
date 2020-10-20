@@ -1,0 +1,19 @@
+{
+  "name": "cool-simple-site",
+  "version": "1.0.0",
+  "description": "Simple and cool modules for building your website with copy+paste ease",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markohanesian/cool-simple-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markohanesian/cool-simple-site/issues"
+  },
+  "homepage": "https://github.com/markohanesian/cool-simple-site#readme"
+}
