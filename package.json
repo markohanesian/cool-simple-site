@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/markohanesian/cool-simple-site/issues"
   },
-  "homepage": "https://github.com/markohanesian/cool-simple-site#readme"
+  "homepage": "https://github.com/markohanesian/cool-simple-site#readme",
+  "dependencies": {
+    "clipboard": "^2.0.6"
+  }
 }
