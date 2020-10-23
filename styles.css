@@ -187,7 +187,8 @@ form {
     justify-content: center;
     align-items: center;
     align-self: center;
-    width: 200px;
+    background-color: whitesmoke;
+    width: auto;
     color: black;
     border: none;
     margin: 1rem;
@@ -200,6 +201,8 @@ form {
 fieldset {
     border: none;
     background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
     font-size: 1rem;
     padding: 2rem;
 }
