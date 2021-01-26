@@ -1,7 +1,7 @@
 # cool-simple-site
 
 ## Description
-Simple and cool modules for building your website with copy+paste ease
+Simple, cool, lightweight components that use HTML and CSS for building your website
 
 ## User Story
 I want to build a simple website/app and just copy in cool and simple modules made with light code
